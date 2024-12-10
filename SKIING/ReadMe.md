@@ -1,6 +1,27 @@
 # PROJECT - SKIING:
 This repository contains the files used to train agent to play [Skiing](https://ale.farama.org/environments/skiing/)
 
+# Table of Contents
+- [PROJECT - SKIING](#project---skiing)
+- [The Game](#the-game)
+- [Action Space](#action-space)
+- [Observation Space](#observation-space)
+- [Untrained Agent](#untrained-agent)
+- [Training](#training)
+  - [Training - DQN](#training---dqn)
+    - [Requirements](#requirements)
+    - [Preprocessing](#preprocessing)
+    - [Training](#training-1)
+    - [Results](#results)
+  - [Training - REINFORCE](#training---reinforce)
+    - [Requirements](#requirements-1)
+    - [Preprocessing](#preprocessing-1)
+    - [Training](#training-2)
+    - [Results](#results-1)
+  - [Training - A2C](#training---a2c)
+- [Conclusion](#conclusion)
+
+
 
 ## The game:
 The skiing game consists of an agent (skier) that has as the main objective to go in between 20 flags in the least amount of time. 
