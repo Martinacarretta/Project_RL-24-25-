@@ -188,6 +188,7 @@ The following photo is a zoomed in picture of the last episodes.
 
 ![alt text](photos_for_read_me_and_report/DDQN2.png)
 
+
 ### Results:
 Aside from the improvememnt, when testing, the results were pretty similar to the test of the DQN.
 The model used to test is [this one](model_DDQN_manual.pth)
