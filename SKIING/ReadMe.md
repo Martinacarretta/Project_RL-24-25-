@@ -52,7 +52,6 @@ First and foremost, we wanted to see how an untrained agent would perform to hav
 
 ![alt text](photos_for_read_me_and_report/plot_untrained.jpg)
 
-FALTA POSAR EL PLOT DELS REWARDS DEL TEST DE 10 EPISODIS UNTRAINED
 
 ## Training:
 We decided to tackle this part of the project with 2 different algorithms:
