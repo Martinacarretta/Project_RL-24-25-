@@ -13,11 +13,13 @@ This repository contains the files used to train agent to play [Skiing](https://
     - [Preprocessing](#preprocessing)
     - [Training](#training-1)
     - [Results](#results)
+  - [Training - DDQN](#training---ddqn)
+    - [Results](#results-1)
   - [Training - REINFORCE](#training---reinforce)
     - [Requirements](#requirements-1)
     - [Preprocessing](#preprocessing-1)
     - [Training](#training-2)
-    - [Results](#results-1)
+    - [Results](#results-2)
   - [Training - A2C](#training---a2c)
 - [Conclusion](#conclusion)
 
@@ -175,7 +177,27 @@ And this is the test plot:
 
 ![alt text](gifs_test_DQN/rewards_plot.png)
 
+## Training - DDQN:
+After training the DQN, we decided to try an extension: DDQN.
+We kept the hyperparameters the same and only changed the network. 
+The training had a very similar behavior to the basic DQN following the same learning curve. Nevertheless, we did notice an improvement or 200 in the mean rewards of the endind. 
+
+![alt text](photos_for_read_me_and_report/DDQN.png)
+
+The following photo is a zoomed in picture of the last episodes. 
+
+![alt text](photos_for_read_me_and_report/DDQN2.png)
+
+### Results:
+Aside from the improvememnt, when testing, the results were pretty similar to the test of the DQN.
+The model used to test is [this one](model_DDQN_manual.pth)
+
+![alt text](gifs_test_DDQN/episode_10.gif) ![alt text](gifs_test_DDQN/episode_11.gif) ![alt text](gifs_test_DDQN/episode_12.gif) ![alt text](gifs_test_DDQN/episode_13.gif) ![alt text](gifs_test_DDQN/episode_14.gif) ![alt text](gifs_test_DDQN/episode_15.gif)
+
+![alt text](gifs_test_DDQN/rewards_plot.png)
+
 ---
+
 ---
 
 ## Training - REINFORCE:
